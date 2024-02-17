@@ -24,7 +24,7 @@ export default defineEventHandler(async (event) => {
       body.user,
     ]);
 
-  const isUserNameUsed = await isUserNameExists(body.user.account.name);
+  const isUserNameUsed = await isUserNameExists(body.user.data.account.name);
   if (isUserNameUsed)
     return { success: false, error: "auth/username-already-exists" };
 
