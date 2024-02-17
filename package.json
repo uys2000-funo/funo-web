@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev --dotenv .env.development",
+    "dev-product": "nuxt dev --dotenv .env.production",
+    "build": "nuxt build --dotenv .env.development",
+    "build-product": "nuxt build --dotenv .env.production",
+    "generate": "nuxt generate --dotenv .env.development",
+    "generate-product": "nuxt generate --dotenv .env.production",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "autoprefixer": "^10.4.14",
+    "firebase-admin": "^11.10.1",
+    "firebase-functions": "^4.4.1",
+    "firebase-functions-test": "^3.1.0",
+    "nuxt": "^3.4.2",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.13",
+    "@pinia/nuxt": "^0.4.9",
+    "pinia": "^2.0.35"
+  }
+}

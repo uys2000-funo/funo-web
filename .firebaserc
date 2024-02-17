@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "funo-test-9a2fa",
+    "dev": "funo-test-9a2fa",
+    "prod": "funo-9f660"
+  },
+  "targets": {},
+  "etags": {}
+}
